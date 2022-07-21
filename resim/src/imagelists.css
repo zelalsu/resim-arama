@@ -1,0 +1,14 @@
+.image-list-container
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));/* bütün colomların pikselini 300 yap */
+   grid-gap: 10px;/* gridler arası açıklık*/
+   padding-top:10px;/*yukarıdan boşluk verme*/
+ 
+}
+
+.image-list-container img
+{
+   width: 300px;
+
+}
